@@ -1,0 +1,84 @@
+.sign-up-wrapper {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 10rem;
+
+    .header {
+      h1 {
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 1.2;
+        text-align: center;
+        color: #495057;
+        font-family: sans-serif;
+      }
+
+      p {
+        color: #343a40;
+        margin-bottom: 1.5rem;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.5;
+        font-family: sans-serif;
+      }
+    }
+
+    .form-group {
+      width: 30vw;
+      .input {
+        width: 93%;
+        input {
+        height: 2.6rem;
+        margin-bottom: 1rem;
+        width: 100%;
+
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+
+        outline: none;
+        padding-left: 30px;
+        }
+      }
+
+      button {
+        width: 100%;
+        font-size: 0.875rem;
+        font-weight: 600;
+
+        color: #fff;
+        background-color: #665dfe;
+        border-color: #665dfe;
+
+        padding: 0.875rem 2.25rem;
+        border: 1px solid transparent;
+        line-height: 1.5;
+        border-radius: 0.3rem;
+      }
+    }
+
+    .sign-in {
+      margin-top: 1rem;
+      span {
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: #495057;
+        font-family: sans-serif;
+        line-height: 1.15;
+      }
+
+      a {
+        font-weight: 400;
+        font-size: 0.875rem;
+        color: #665dfe;
+        text-decoration: none;
+        background-color: transparent;
+        font-family: sans-serif;
+        line-height: 1.15;
+      }
+    }
+  }
+}
